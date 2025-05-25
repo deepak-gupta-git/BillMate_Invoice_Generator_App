@@ -35,7 +35,7 @@ const InvoiceForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http://localhost:8080/api/invoice", {
+      const res = await fetch("https://billmate-invoice-generator-app.onrender.com/api/invoice", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
