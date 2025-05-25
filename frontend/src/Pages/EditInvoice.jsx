@@ -34,7 +34,7 @@ const EditInvoice = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await fetch(`http://localhost:8080/api/invoice/${id}`, {
+      await fetch(`https://billmate-invoice-generator-app.onrender.com/api/invoice/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
