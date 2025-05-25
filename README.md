@@ -32,8 +32,7 @@
 ### 1. Clone the repository
 
 
-git clone https://github.com/your-username/billmate.git
-cd billmate
+git clone https://github.com/deepak-gupta-git/BillMate_Invoice_Generator_App
 
 
 ### 2.Install dependencies for both frontend and backend:
