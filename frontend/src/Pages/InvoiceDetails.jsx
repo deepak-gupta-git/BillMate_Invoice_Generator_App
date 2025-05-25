@@ -29,7 +29,7 @@ const InvoiceDetails = () => {
 
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(`http://localhost:8080/api/invoice/${id}`, {
+      const response = await fetch(`https://billmate-invoice-generator-app.onrender.com/api/invoice/${id}`, {
         method: "DELETE",
       });
 
