@@ -12,7 +12,7 @@ const EditInvoice = () => {
    useEffect(() => {
     const fetchInvoice = async () => {
       try {
-        const res = await fetch(`http://localhost:8080/api/invoice/${id}`);
+        const res = await fetch(`https://billmate-invoice-generator-app.onrender.com/api/invoice/${id}`);
         const data = await res.json();
         setInvoice(data.data);
       } catch (err) {
